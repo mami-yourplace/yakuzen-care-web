@@ -1,0 +1,236 @@
+#check-screen {
+    display: none;
+}
+
+#season-screen {
+    display: none;
+}
+
+.symptom-group {
+    border: 1px solid #C5CBC1; /* 箱の枠線 */
+    padding: 10px;     /* 箱の内側の余白 */
+    margin: 10px;
+    background-color: #F7F8F3;      /* 箱の外側の余白 */
+}
+
+.symptom-item {
+    margin-bottom: 8px;
+}
+
+#result-screen {
+    white-space: pre-line;
+}
+
+#result-screen:empty {
+    display: none;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.season-description {
+    white-space: pre-line;
+}
+
+.other-type-title {
+    cursor: pointer;
+    color: #75467B;
+}
+
+#top-screen {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+#top-screen h1 {
+    font-size: 28px;
+}
+
+#top-screen button {
+    display: block;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    width: 260px;
+    background-color: #514052;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+#top-screen p {
+    line-height: 1.8;
+}
+
+body {
+    background-color: #EDF0E8;
+    font-family: sans-serif;
+    color: #353B35;
+}
+
+.symptom-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #514052;
+}
+
+#check-screen h2 {
+    color: #514052;
+}
+
+#result-screen h2,
+#result-screen h3 {
+    color: #514052;
+}
+
+#result-screen {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.food-list span {
+    background-color: #F7F8F3;
+    border: 1px solid #DEE2DA;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*#result-screen div {*/
+/*    line-height: 1.7;*/
+/*}*/
+
+.care-list {
+    line-height: 1.7;
+}
+
+.care-list > div {
+    margin-bottom: 4px;
+}
+
+.type-description {
+    line-height: 1.7;
+}
+
+.other-guide {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #514052;
+}
+
+.other-guide p {
+    margin: 0;
+    white-space: pre-line;
+}
+
+#season-screen {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.season-button {
+    background-color: #F7F8F3;
+    color: #514052;
+    border: 1px solid #C5CBC1;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.season-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    max-width: 300px;
+}
+
+#spring-button {
+    background-color: #F3E4E7;
+    color: #704C59;
+    border-color: #D9B9C3;
+}
+
+#summer-button {
+    background-color: #E3EBD9;
+    color: #47613D;
+    border-color: #B9CAA6;
+}
+
+#rainy-button {
+    background-color: #E3E7F1;
+    color: #4E5D7D;
+    border-color: #BEC8DC;
+}
+
+#autumn-button {
+    background-color: #F1E6D7;
+    color: #755C3F;
+    border-color: #DCC7AB;
+}
+
+#winter-button {
+    background-color: #E1E9E9;
+    color: #456267;
+    border-color: #BBCDCE;
+}
+
+.season-button.selected {
+    border-width: 3px;
+}
+
+#result-button {
+    display: block;
+    width: 240px;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 14px 20px;
+    background-color: #514052;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.tea-link-button {
+    display: block;
+    width: 260px;
+    max-width: 100%;
+    margin: 25px auto;
+    padding: 14px 16px;
+    background-color: #F7F8F3;
+    color: #514052;
+    border: 1px solid #514052;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: pre-line;
+}
+
+#check-back-button,
+#season-back-button {
+    display: block;
+    width: 240px;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 14px 20px;
+    background-color: #F7F8F3;
+    color: #514052;
+    border: 1px solid #514052;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

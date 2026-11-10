@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html leng="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>五臓体質チェック・季節の養生</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="top-screen"> 
+
+    <h1>五臓体質チェック・季節の養生</h1>
+
+    <p>
+        今のからだのサインから、<br>
+        自分に合った養生を見つけてみましょう。
+    </p>
+
+    <button id="check-button">体質をチェックする</button>
+
+    <button id="seasons-button">季節の養生を見る</button>
+
+    <button id="tea-button">東洋のお茶図鑑を見る</button>
+
+    <p>あなたらしい健やかな毎日を、ここから。🌿</p>
+
+    </div>
+
+    <div id="check-screen">
+
+        <h2>体質チェック</h2>
+
+        <p>
+            今の自分に当てはまるものを選んでみましょう。<br>
+            季節や暮らしの変化によって、選ぶサインが変わることもあります。
+        </p>
+
+        <div id="symptom-list"></div>
+
+        <button id="result-button">結果を見る</button>
+
+        <div id="result-screen"></div>
+
+        <button id="check-back-button">トップへ戻る</button>
+
+    </div>
+
+    <div id="season-screen">
+
+        <h2>季節の養生</h2>
+
+        <p>
+            季節に合わせた食事や過ごし方を<br>
+            のぞいてみましょう。<br>
+            気になる季節を選んでください。
+        </p>
+    <div class="season-buttons">
+        <button id="spring-button" class="season-button">春</button>
+        <button id="summer-button" class="season-button">夏</button>
+        <button id="rainy-button" class="season-button">梅雨</button>
+        <button id="autumn-button" class="season-button">秋</button>
+        <button id="winter-button" class="season-button">冬</button>
+    </div>
+    
+        <div id="season-result"></div>
+
+        <button id="season-back-button">トップへ戻る</button>
+
+    </div>
+
+    <script src="symptoms.js"></script>
+    <script src="types.js"></script>
+    <script src="seasons.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
