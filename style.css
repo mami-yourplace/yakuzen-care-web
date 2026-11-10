@@ -236,8 +236,7 @@ body {
     cursor: pointer;
 }
 
-#result-screen .tea-link-button,
-#season-result .tea-link-button {
+#result-screen .tea-link-button {
     margin-bottom: 5px;
 }
 
