@@ -59,6 +59,7 @@
     color: white;
     border: none;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 #top-screen p {
@@ -233,4 +234,14 @@ body {
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+}
+
+#result-screen .tea-link-button {
+    margin-button {
+        margin-bottom: 5px;
+    }
+}
+
+#check-back-button {
+    margin-top: 10px;
 }
