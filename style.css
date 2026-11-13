@@ -139,6 +139,11 @@ body {
     box-sizing: border-box;
 }
 
+#season-screen h2 {
+    font-size: 26px;
+    padding-left: 20px;
+}
+
 .season-button {
     background-color: #F7F8F3;
     color: #514052;
